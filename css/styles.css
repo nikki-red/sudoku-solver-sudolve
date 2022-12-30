@@ -1,0 +1,70 @@
+body {
+  background-color: #efede7;
+}
+#site-header {
+  background-color: #212c28;
+}
+.navbar-brand {
+  color: #efede7;
+  font-size: 1.5rem;
+  line-height: 1;
+}
+.navbar-brand:hover {
+  color: lightgrey;
+}
+#site-body {
+  margin:auto;
+  text-align: center;
+}
+table {
+  margin: auto;
+  margin-top: 35px;
+}
+tr:first-child td {
+	border-top: 2px solid #4c675c;
+}
+tr:nth-child(3n) td {
+  border-bottom: 2px solid #4c675c;
+}
+td {
+	border: 1px solid lightgrey;
+	height: 40px;
+	width: 40px;
+}
+td:first-child {
+  border-left: 2px solid #4c675c;
+}
+td:nth-child(3n) {
+  border-right: 2px solid #4c675c;
+}
+input {
+	padding: 0;
+	text-align: center;
+	border: 0;
+	height: 40px;
+	width: 40px;
+  color: #4c675c;
+  font-size: 1.5rem;
+}
+
+input:focus {
+  color: #4c675c;
+  outline: none;
+  border: 1.5px solid #475f55;
+  box-shadow: 0 0 10px #719ECE;
+}
+.btn {
+  border-radius: 0;
+}
+.btnOne {
+  background-color: #212c28;
+}
+
+.btn:hover {
+  background-color: #212c28;
+}
+.empty {
+  background-color: #e7edea;
+  color: black;
+  font-size: 1.5rem;
+}
