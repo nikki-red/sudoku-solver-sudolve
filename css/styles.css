@@ -68,3 +68,7 @@ input:focus {
   color: black;
   font-size: 1.5rem;
 }
+.invalidCell {
+  color: #a91400;
+  background-color: #ffe6e3;
+}
