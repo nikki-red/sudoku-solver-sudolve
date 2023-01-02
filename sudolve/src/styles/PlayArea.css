@@ -1,0 +1,68 @@
+.arena-container {
+  display: flex;
+  justify-content: center;
+  margin: 50px auto;
+  z-index: 100;
+}
+
+tr:first-child td {
+  border-top: 2px solid #4c675c;
+}
+tr:nth-child(3n) td {
+  border-bottom: 2px solid #4c675c;
+}
+td {
+  border: 1px solid lightgrey;
+  height: 40px;
+  width: 40px;
+}
+td:first-child {
+  border-left: 2px solid #4c675c;
+}
+td:nth-child(3n) {
+  border-right: 2px solid #4c675c;
+}
+input {
+  padding: 0;
+  text-align: center;
+  border: 0;
+  height: 40px;
+  width: 40px;
+  color: #4c675c;
+  font-size: 1.5rem;
+}
+
+input:focus {
+  color: #4c675c;
+  outline: none;
+  border: 1.5px solid #475f55;
+  box-shadow: 0 0 10px #719ece;
+}
+.btn {
+  border-radius: 0;
+}
+.btnOne {
+  background-color: #212c28;
+}
+
+.btn:hover {
+  background-color: #212c28;
+}
+.empty {
+  background-color: #e7edea;
+  color: black;
+  font-size: 1.5rem;
+}
+.invalidCell {
+  color: #a91400;
+  background-color: #ffe6e3;
+}
+
+.btn-group {
+  margin-top: 15px;
+  width: 100%;
+}
+
+.btn-group button {
+  margin: 0 10px;
+}

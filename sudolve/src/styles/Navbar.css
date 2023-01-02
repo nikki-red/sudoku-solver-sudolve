@@ -1,0 +1,51 @@
+.nav-container {
+  background-color: #ab61d9;
+  color: white;
+}
+
+.nav-flex-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 30px;
+}
+
+.nav-logo {
+  font-size: 1.5rem;
+}
+
+.nav-btns {
+  margin: 0 10px 0 0;
+  border: 0.5px solid white;
+  color: white;
+  font-weight: bold;
+  border-radius: 5px;
+  padding: 5px 10px;
+  background-color: inherit;
+}
+
+.nav-sidebar {
+  position: absolute;
+  background-color: blueviolet;
+  width: 14%;
+  height: 90vh;
+}
+
+.sidebar-flex {
+  display: flex;
+  flex-direction: column;
+  padding: 10px 30px;
+  justify-content: center;
+}
+
+.nav-sidebar-hidden {
+  display: none;
+}
+
+.sidebar-flex-item {
+  color: white;
+  display: flex;
+  justify-content: center;
+  padding: 20px 0;
+  background-color: inherit;
+  border: none;
+}
